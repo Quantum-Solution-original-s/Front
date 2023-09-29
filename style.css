@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10%;
+  height: 531px;
+  width: 895px;
+  background: linear-gradient(#333066, #100D40);
+  border-radius: 8px;
+}
+
+#informacao {
+  margin-left: 60px;
+}
+
+#title {
+  display: flex;
+  font-size: 27px;
+  justify-content: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 10px;
+  margin-bottom: 17%;
+
+}
+
+#icon-perfil {
+  width: 82px;
+  margin-top: 6%;
+  margin-bottom: -28px;
+}
+
+#place {
+  border-radius: 20px;
+  width: 370px;
+  height: 42px;
+  border: none;
+  font-size: 18px;
+  outline: none;
+  margin-top: 4px;
+}
+
+#place::placeholder {
+  padding: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#nome {
+  font-size: 19px;
+  margin-bottom: 1.2%;
+  text-align: left;
+
+}
+
+#senha {
+  font-size: 19px;
+  margin-bottom: 1.2%;
+  text-align: left;
+
+}
+
+#img-lateral {
+  width: 330px;
+  height: 531px;
+  margin-left: 78px;
+  border-radius: 0 8px 8px 0;
+}
+
+#button-acessar {
+  width: 143px;
+  height: 45px;
+  margin-top: 40px;
+  border-radius: 40px;
+  background-color: #6663B3;
+  font-weight: bold;
+  color: white;
+  border: none;
+  box-shadow: 0 3px 3px 0;
+}
+
+#button-acessar:active {
+  transform: translateY(3px);
+  background-color: #6a5dd1;
+  font-weight: bold;
+  box-shadow: 0 3px 3px 0 #6a5dd1;
+}
+
+#menu {
+  border-bottom: 1px solid black;
+  display: flex;
+  color: black;
+  list-style: none;
+  box-shadow: 0 1px 1px 0;
+}
+
+#menu a {
+  margin: 50px 25px 5px 0;
+  margin-left: 2%;
+  font-size: 20px;
+}
+
+#menu a:active {
+  font-weight: bold;
+  color: #7c79e2;
+}
+
+
+#senha-recuperar {
+  color: white;
+  text-decoration: none;
+}
+
+#senha-recuperar:active {
+  color: #7c79e2;
+  font-weight: bold;
+}
+
+#fazer-cadastro {
+  color: white;
+  text-decoration: none;
+}
+
+#fazer-cadastro:active {
+  color: #7c79e2;
+  font-weight: bold;
+}
+
+#email {
+  display: flex;
+  margin: 0 20px 0 0;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.img-email {
+  width: 30px;
+  height: 30px;
+  margin: 9px 0 0 11px;
+}
+
+#senha-icon {
+  display: flex;
+  margin: 0 20px 0 0;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.img-senha {
+  width: 30px;
+  height: 30px;
+  margin: 9px 0 0 11px;
+}
