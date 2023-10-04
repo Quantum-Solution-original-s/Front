@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Recuperaçao de senha</title>
+</head>
+<body>
+  <!-- MENU -->
+  <div class="header">
+    <div class="container">
+        <img src="img/Logo.png" alt="logo" class="logo1">
+        <h1 class="logo"></h1>
+        <div class="nav-bar-left">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Planos de sensores</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+        <div class="nav-bar-right">
+            <ul>
+                <li><a href="#"> <b>Login</b></a></li>
+                <li><button class="button-cadastro"><a href="#"> <b>Cadastro</b> </a></button></li>
+            </ul>
+        </div>
+    </div>
+  </div>
+
+  <!-- BLOCO RECUPERACAO -->
+  <main>
+    <div class="recuperacao-senha-background">
+      <h2 class="title-recuperacao">Recuperação de Senha</h2>
+      <div class="text-informacao">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sapiente laborum sit eum id totam qui culpa quidem cum nobis, iste excepturi odit dolorem laboriosam consectetur autem commodi! Fugit, sit.
+        </p>
+      </div>
+      <div class="recuperacao-inputs">
+        <p class="text-email">E-mail <br>
+          <div class="icons-div">
+            <img class="icon-email" src="img/o-email.png"> <input type="text" class="input" id="email-js" placeholder="Digite seu email">
+          </div>
+        </p>
+        
+          <button onclick="validacao_email ()" class="button-validacao">Validar Email</button> <br>
+          <br>
+        <p class="text-codigo">Digite o Código recebido <br>
+          <div class="icons-div">
+            <img class="icon-code" src="img/code-icon.png"> <input type="text" class="input" id="codigo-js" placeholder="Digite o Código aqui">
+          </div>
+        </p>  
+          <button onclick="recuperacao ()" class="button_recuperar">Recuperar Senha</button>
+      </div>
+    </div>
+  </main>
+
+
+
+<!-- FOOTER -->
+<footer>
+  <div id="footer_content">
+      <div id="footer_contacts">
+          <img src="./img/Logo.png" alt="logo" class="logo2">
+          <p>É tudo sobre o seu sonho.</p>
+          <div id="footer_social_media">
+              <a href="#" class="footer-link" id="instagram">
+                  <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#" class="footer-link" id="facebook">
+                  <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="" class="footer-link" id="email">
+                  <i class="fa-solid fa-envelope"></i>
+              </a>
+          </div>
+      </div>
+      <div id="div-footer-list">
+          <ul class="footer-list">
+              <li>
+                  <h3> Extensão de atuação </h3>
+              </li>
+              <li>
+                  <img src="./img/mapa-br.png" alt="mapa_do_brasil" class="mapa-br">
+              </li>
+              <li>
+                  <a href="#" class="footer-link">Planos de sensores</a>
+              </li>
+          </ul>
+      </div>
+
+      <ul class="footer-list">
+          <li>
+              <h3>Time Quantum Solution</h3>
+          </li>
+          <li>
+              <a href="#" class="footer-link">Contato</a>
+          </li>
+          <li>
+              <a href="#" class="footer-link">Trabalhe conosco</a>
+          </li>
+          <li>
+              <a href="#" class="footer-link">equipe Quantum Solution</a>
+          </li>
+
+      </ul>
+
+      <div id="footer_subscribe">
+          <h3>Inscreva-se para newsletter</h3>
+          <p>
+              Entre com seu e-mail para receber noticías sobre nossas novas soluções
+          </p>
+          <div id="input_email">
+              <input type="email" name="" id="email_ipt">
+              <button class="button-ipt">
+                  <i class="fa-solid fa-envelope"></i>
+              </button>
+          </div>
+      </div>
+  </div>
+  <div id="footer_copyright">
+      &#169
+      2023 all rights reserved by Quantum Solution
+  </div>
+</footer>
+
+</body>
+</html>
