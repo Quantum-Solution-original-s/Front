@@ -137,18 +137,24 @@ li.footer_li {
 #input_email {
     display: flex;
     align-items: center;
-    background-color: white 4px;
-    border-radius: 4px;
     margin-right: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+button i {
+    background-color: transparent;
+    border: none;
 }
 
 #input_email input {
     padding: 12px;
     width: 100%;
     color: black;
-    border: 1px #EAEAEA solid;
+    border: 0px #EAEAEA solid;
     border-radius: 6px;
     margin-left: 12px;
+    outline: none;
 }
 
 
@@ -169,7 +175,11 @@ li.footer_li {
 }
 
 .button-ipt {
-    margin-left: 10px;
+    margin-right: 12px;
+    border: 0;
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
 }
 
 .button-cadastro {
