@@ -44,8 +44,6 @@ footer {
 #footer_contacts {
     margin-right: 40px;
     margin-left: 15px;
-    height: 500px;
-    width: 500px;
 }
 
 #footer_contacts h1 {
@@ -98,7 +96,6 @@ footer {
     flex-direction: column;
     gap: 12px;
     list-style: none;
-    margin: 0 0 0 50px;
 }
 
 .footer-list h3 {
@@ -436,8 +433,4 @@ h3 {
     /* text-decoration: none; */
     font-family: 'inter', sans-serif;
     line-height: 40px;
-}
-
-main {
-    margin: 500px;
 }

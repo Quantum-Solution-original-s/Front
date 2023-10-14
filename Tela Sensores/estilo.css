@@ -130,6 +130,7 @@ button {
     flex-wrap: wrap;
     align-content: space-evenly;
     justify-content: space-evenly;
+    grid:40px ;
 }
 .item{
     padding: 10px;

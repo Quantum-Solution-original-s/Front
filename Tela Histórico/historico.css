@@ -1,0 +1,101 @@
+.box_lateral {
+    width: 159px;
+    height: 663px;
+    flex-shrink: 0;
+    background: #eaeaeab9;
+    margin: 8% 0;
+    border-radius: 10px;
+}
+
+.box_lateral .foto_perfil {
+    width: 129px;
+    height: 131px;
+    border-radius: 400px;
+    background: #807f7f;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.box_lateral .nome_empresa {
+    text-align: center;
+    font-size: 22px;
+}
+.box_lateral .links {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+}
+
+.box_lateral .links a{
+    color: #000;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.box_lateral .links .historico_sens {
+    margin-top: 30px;
+}
+
+.box_principal {
+    width: 1079px;
+    height: 587px;
+    background: #eaeaeab9;
+    margin: auto;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_principal .box_principal_content {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 50px 0 0 0;
+}
+
+.box_principal .box_principal_content .img_logo {
+    width: 250px;
+    margin: auto;
+}
+
+.box_principal .box_principal_content .text_box {
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    color: #000;
+    font-size: 30px;
+}
+
+.box_principal .box_principal_content .btn_download {
+    width: 219px;
+    height: 62px;
+    background-color: #8F51E7;
+    border-radius: 35px;
+    border: 1px solid #EAEAEA;
+    color: #F5F5F5;
+    transition: all .4s linear;
+}
+
+.box_principal .box_principal_content .btn_download:hover{
+    width: 250px;
+    height: 69px;
+    font-size: 15px;
+    background-color: #7f44d1;
+    border-radius: 35px;
+    border: 1px solid #EAEAEA;
+    color: #F5F5F5;
+    transition: all .4s linear;
+}
+
+.box_principal .box_principal_content .legenda {
+    color: #4B4B4B;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}

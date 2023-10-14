@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="historico.css">
+    <link rel="stylesheet" href="footerheader.css">
     <script src="script.js"></script>
 </head>
 
 <body>
-
     <div class="header">
         <div class="container">
             <img src="./img/Logo.png" alt="logo" class="logo1">
@@ -25,6 +25,8 @@
                     <li><a class="a-nav-left" href="#">Planos de sensores</a></li>
                     <li><a class="a-nav-left" href="#">Calculadora</a></li>
                     <li><a class="a-nav-left" href="#">Contato</a></li>
+                    <li><a class="a-nav-left" href="#">Dashboard</a></li>
+                    <li><a class="a-nav-left" href="#">Sobre Nós</a></li>
                 </ul>
             </div>
             <div class="nav-bar-right">
@@ -44,11 +46,34 @@
             <li><a class="a-nav-left" href="#">Home</a></li>
             <li><a class="a-nav-left" href="#">Planos de sensores</a></li>
             <li><a class="a-nav-left" href="#">Contato</a></li>
+            <li><a class="a-nav-left" href="#">Dashboard</a></li>
+            <li><a class="a-nav-left" href="#">Sobre Nós</a></li>
             <li><a class="a-nav-right" href="#"> <b>Login</b></a></li>
             <li><button class="button-cadastro"><a href="#"> <b>Cadastro</b> </a></button></li>
         </ul>
     </menu>
-    <main></main>
+
+    <main class="main-box">
+        <div class="box_lateral">
+            <div class="foto_perfil"></div>
+            <p class="nome_empresa">Nome da empresa</p>
+
+            <div class="links">
+                <a href="" class="atual">Sensores atuais</a>
+                <a href="" class="historico_sens">Histórico de sensores</a>
+            </div>
+        </div>
+
+        <div class="box_principal">
+            <div class="box_principal_content">
+                <img src="img/Logo.png" alt="logo_inside_box" class="img_logo">
+                <p class="text_box">Baixar historico de sensores</p>
+                <button class="btn_download">DOWNLOAD</button>
+                <p class="legenda">Arquivo do tipo .xlsx</p>
+            </div>
+        </div>
+    </main>
+
     <footer>
         <div id="footer_content">
             <div id="footer_contacts">
@@ -64,18 +89,6 @@
                     <a href="" class="footer-link" id="email">
                         <i class="fa-solid fa-envelope"></i>
                     </a>
-                    <div id="footer_subscribe">
-                        <h3>Inscreva-se para newsletter</h3>
-                        <p>
-                            Entre com seu e-mail para receber noticías sobre nossas novas soluções
-                        </p>
-                        <div id="input_email">
-                            <input type="text" name="" id="email_ipt">
-                            <button class="button-ipt">
-                                <i class="fa-solid fa-envelope"></i>
-                            </button>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div id="div-footer-list">
@@ -109,13 +122,25 @@
                 </li>
 
             </ul>
+
+            <div id="footer_subscribe">
+                <h3>Inscreva-se para newsletter</h3>
+                <p>
+                    Entre com seu e-mail para receber noticías sobre nossas novas soluções
+                </p>
+                <div id="input_email">
+                    <input type="email" name="" id="email_ipt">
+                    <button class="button-ipt">
+                        <i class="fa-solid fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
         </div>
         <div id="footer_copyright">
             &#169
             2023 all rights reserved by Quantum Solution
         </div>
     </footer>
-
 </body>
 
-</html> 
+</html>
